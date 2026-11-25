@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#ffffff"><title>Amritbharadwaj Apps</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{--g:#01875f;--k:#0f172a;--m:#5b6676;--s:#f2f5f3;--l:#e4e9e6}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}html{scroll-behavior:smooth}
+body{font:500 15px/1.4 Outfit,system-ui,sans-serif;color:var(--k);background:#fff;padding-bottom:40px}
+.w{max-width:720px;margin:auto;padding:0 16px}h1{font-size:25px;font-weight:800;line-height:1.15}h2{font-size:20px;font-weight:800;margin:26px 0 12px}
+.m{color:var(--m);font-size:13px;display:block}.fx{flex:1;min-width:0}.rw{display:flex;align-items:center;gap:12px}.sp{justify-content:space-between}
+.top{position:sticky;top:0;z-index:5;background:#fffd;backdrop-filter:blur(14px);border-bottom:1px solid var(--l);padding:10px 16px}.top>div{max-width:720px;margin:auto}
+.lg{font-weight:800;font-size:19px;cursor:pointer;display:flex;align-items:center;gap:8px;white-space:nowrap}.lg i{background:var(--k);color:#fff;border-radius:10px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;font-size:15px}
+.sr{position:relative;flex:1}.sr input{width:100%;border:0;background:var(--s);border-radius:24px;padding:10px 16px 10px 40px;font:500 15px Outfit;outline:0}.sr i{position:absolute;left:15px;top:13px;color:var(--m)}
+.ic{border-radius:22.5%;object-fit:cover;background:#fff;box-shadow:0 0 0 1px #0000000f,0 4px 14px #0000001f;display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--g);flex:none}
+.vf{color:var(--g);font-size:13px}.st{font-size:11px}
+.hr{display:flex;overflow:auto;scroll-snap-type:x mandatory;scrollbar-width:none;max-width:720px;margin:14px auto 0}.hr::-webkit-scrollbar{display:none}
+.sl{flex:0 0 100%;scroll-snap-align:center;padding:4px 16px 14px}.cd{border-radius:30px;padding:20px;box-shadow:0 10px 30px #0000001a;cursor:pointer}
+.tg{display:inline-block;background:var(--k);color:#fff;font-size:12px;font-weight:700;padding:3px 12px;border-radius:20px;margin-bottom:14px}.hn{font-size:26px;font-weight:800;margin:0;line-height:1.1}
+.mini{display:flex;gap:8px;margin:16px 0 4px}.mini img{flex:1;min-width:0;height:128px;object-fit:cover;border-radius:16px;box-shadow:0 2px 10px #0002}
+.dots{display:flex;justify-content:center;gap:6px;margin-top:2px}.dots i{width:7px;height:7px;border-radius:5px;background:#cfd6d2;transition:.3s}.dots .on{width:22px;background:var(--k)}
+.ch{display:flex;gap:8px;overflow:auto;padding:16px 0 2px;scrollbar-width:none}.ch button{border:1.5px solid var(--l);background:#fff;border-radius:20px;padding:7px 16px;font:700 14px Outfit;white-space:nowrap;cursor:pointer}.ch .on{background:var(--k);color:#fff;border-color:var(--k)}
+.tl{display:flex;gap:16px;overflow:auto;scrollbar-width:none;padding:4px 2px 10px}.tl>div{flex:none;width:92px;cursor:pointer}.tl b{display:block;font-size:13px;margin-top:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row{display:flex;align-items:center;gap:14px;padding:11px 0;cursor:pointer}.row b{display:block;font-size:16px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ib{background:var(--g);color:#fff;border:0;border-radius:22px;padding:9px 22px;font:700 14px Outfit,sans-serif;cursor:pointer;position:relative;overflow:hidden;min-width:96px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:6px;transition:background .25s,min-width .25s}
+.ib:active{transform:scale(.95)}.ib .bar{position:absolute;left:0;top:0;bottom:0;width:0;background:#b9e6d3}.ib span{position:relative}
+.ib.bz{background:#e2f4ec;color:var(--g);min-width:158px}.ib.ok{background:#fff;color:var(--g);box-shadow:inset 0 0 0 2px var(--g)}.ib.alt{background:#fff;color:var(--g);box-shadow:inset 0 0 0 1.5px var(--l)}.ib.big{padding:14px;font-size:16px;border-radius:28px}
+.nb{display:flex;justify-content:space-between;padding:12px 0}.rb{border:0;background:var(--s);width:40px;height:40px;border-radius:50%;font-size:16px;cursor:pointer}
+.dev{color:var(--g);font-weight:700;margin-top:2px}.vp{display:inline-flex;gap:6px;align-items:center;background:#e2f4ec;color:var(--g);font-weight:700;font-size:12px;padding:3px 10px;border-radius:14px;margin-top:6px}
+.stats{display:flex;margin:22px 0;text-align:center}.stats div{flex:1;padding:2px 4px;border-left:1px solid var(--l)}.stats div:first-child{border:0}.stats b{display:block;font-size:16px;font-weight:800}.stats span{font-size:12px;color:var(--m)}
+.acts{display:flex;gap:10px}.acts .ib{flex:1}
+.ss{display:flex;gap:10px;overflow:auto;scrollbar-width:none;margin:0 -16px;padding:0 16px}.ss img{height:300px;border-radius:18px;box-shadow:0 0 0 1px #0000000f;cursor:zoom-in;flex:none}
+.ds{white-space:pre-line;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden;color:#334155}.ds.o{display:block}.tx{border:0;background:none;color:var(--g);font:700 14px Outfit;margin-top:6px;cursor:pointer;padding:0}
+.ct{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--l);color:var(--k);text-decoration:none}.ct span{flex:1;overflow:hidden;text-overflow:ellipsis}.ct i{color:var(--m)}
+#lb{position:fixed;inset:0;background:#000d;z-index:30;display:none;overflow:auto;scroll-snap-type:x mandatory;align-items:center}#lb.on{display:flex}#lb img{flex:0 0 100%;width:100%;max-height:92vh;object-fit:contain;scroll-snap-align:center}
+#t{position:fixed;bottom:24px;left:50%;transform:translate(-50%,100px);background:var(--k);color:#fff;padding:11px 20px;border-radius:24px;font-weight:700;z-index:40;transition:.3s}#t.on{transform:translate(-50%,0)}
+.pg{animation:fi .4s ease}@keyframes fi{from{opacity:0;transform:translateY(10px)}}.em{text-align:center;padding:80px 16px}.sk{height:190px;border-radius:30px;margin:16px;background:linear-gradient(90deg,var(--s),#fff,var(--s));background-size:200%;animation:sh 1.2s infinite}@keyframes sh{to{background-position:-200%}}
+.s .hx{display:none}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<header class="top"><div class="rw"><div class="lg" onclick="S.go('/')"><i class="fa-solid fa-bolt"></i>Amritbharadwaj</div><label class="sr"><i class="fa-solid fa-magnifying-glass"></i><input placeholder="Search apps" oninput="S.q(this.value)"></label></div></header>
+<main id="app"><div class="sk"></div></main><div id="lb"></div><div id="t"></div>
+<script type="module">
+import{initializeApp}from"https://www.gstatic.com/firebasejs/13.4.0/firebase-app.js";
+import{getFirestore,collection,query,where,getDocs,updateDoc,doc,increment}from"https://www.gstatic.com/firebasejs/13.4.0/firebase-firestore.js";
+const FB={apiKey:"AIzaSyA-8Nkiy4AI_A7jaj6uwuH_tYpJzfbdVFY",authDomain:"appstore-4dc4d.firebaseapp.com",projectId:"appstore-4dc4d",storageBucket:"appstore-4dc4d.firebasestorage.app",messagingSenderId:"683110761928",appId:"1:683110761928:web:febf0152daefd0c84a6cfd"};
+const EP="https://sgp.cloud.appwrite.io/v1",PID="6b06681b002d8685a22b",BK="media",DEV="Amritbharadwaj";
+const db=getFirestore(initializeApp(FB)),$=s=>document.querySelector(s),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const img=id=>`${EP}/storage/buckets/${BK}/files/${id}/view?project=${PID}`,P=["#d3f4e4,#f5fcf8","#ffe3cf,#fff8f2","#d7e6ff,#f4f8ff","#e6ddff,#f8f5ff","#ffdbeb,#fff4f9","#fbf0b0,#fffce9"];
+const fmt=n=>{n=+n||0;const t=(x,u)=>String(+x.toFixed(1))+u+"+";return n>=1e7?t(n/1e7,"Cr"):n>=1e5?t(n/1e5,"L"):n>=1e3?t(n/1e3,"K"):n+"+"};
+let apps=[],cat="all",q="",tm,cur;
+const toast=m=>{const t=$("#t");t.textContent=m;t.classList.add("on");setTimeout(()=>t.classList.remove("on"),2400)};
+const ic=(a,s)=>a.iconId?`<img class="ic" width="${s}" height="${s}" src="${img(a.iconId)}" alt="">`:`<div class="ic" style="width:${s}px;height:${s}px;font-size:${s/2}px">${esc((a.name||"?")[0])}</div>`;
+const vf='<i class="fa-solid fa-circle-check vf"></i>',rt=a=>a.rating>0?`${(+a.rating).toFixed(1)} <i class="fa-solid fa-star st"></i>`:"New";
+const ib=(a,c="",sc=0)=>`<button class="ib ${c}" onclick="event.stopPropagation();S.dl('${a.id}',this,${sc})">Install</button>`;
+const row=a=>`<div class="row" onclick="S.go('/app/${esc(a.slug)}')">${ic(a,60)}<div class="fx"><b>${esc(a.name)} ${vf}</b><span class="m">${esc(a.category||"App")}${a.liveSize?" · "+esc(a.liveSize):""}</span><span class="m">${rt(a)} · ${fmt(a.downloadShown)} downloads</span></div>${ib(a)}</div>`;
+const vis=()=>apps.filter(a=>(cat=="all"||a.category==cat)&&(a.name||"").toLowerCase().includes(q.toLowerCase()));
+
+function home(){document.title="Amritbharadwaj Apps";const cats=[...new Set(apps.map(a=>a.category).filter(Boolean))],hl=[...apps].sort((a,b)=>(b.createdAt||0)-(a.createdAt||0)).slice(0,6),top=[...apps].sort((a,b)=>(b.downloadShown||0)-(a.downloadShown||0)).slice(0,10);
+if(!apps.length)return $("#app").innerHTML=`<div class="em"><h1>Jaldi aa raha hai</h1><p class="m">Abhi koi app publish nahi hua.</p></div>`;
+$("#app").innerHTML=`<div class="pg ${q?"s":""}" id="hm"><div class="hx"><div class="hr" id="hr">${hl.map((a,i)=>`<div class="sl"><div class="cd" style="background:linear-gradient(145deg,${P[i%6]})" onclick="S.go('/app/${esc(a.slug)}')"><div class="tg">${i?"Featured":"Just published"}</div><div class="rw">${ic(a,88)}<div class="fx"><h2 class="hn">${esc(a.name)}</h2><span class="m">${esc(a.shortDesc||"")}</span></div></div>
+<div class="mini">${(a.screenshots||[]).slice(0,3).map(s=>`<img src="${img(s)}" alt="">`).join("")}</div><div class="rw sp" style="margin-top:12px"><span class="m" style="color:var(--k)">${rt(a)} · ${fmt(a.downloadShown)} ${vf}</span>${ib(a)}</div></div></div>`).join("")}</div>
+<div class="dots">${hl.map((_,i)=>`<i class="${i?"":"on"}"></i>`).join("")}</div></div>
+<div class="w"><div class="ch">${["all",...cats].map(c=>`<button class="${cat==c?"on":""}" onclick="S.cat('${esc(c)}')">${c=="all"?"All":esc(c)}</button>`).join("")}</div>
+<div class="hx"><h2>Top downloads</h2><div class="tl">${top.map(a=>`<div onclick="S.go('/app/${esc(a.slug)}')">${ic(a,92)}<b>${esc(a.name)}</b><span class="m">${rt(a)}</span></div>`).join("")}</div></div>
+<h2>Apps for you</h2><div id="lst">${vis().map(row).join("")||'<p class="m">Koi app nahi mila.</p>'}</div></div></div>`;
+const h=$("#hr");h.onscroll=()=>{const i=Math.round(h.scrollLeft/h.clientWidth);document.querySelectorAll(".dots i").forEach((d,j)=>d.classList.toggle("on",i==j))};h.ontouchstart=()=>clearInterval(tm);
+if(hl.length>1)tm=setInterval(()=>{const x=$("#hr");if(x)x.scrollTo({left:((Math.round(x.scrollLeft/x.clientWidth)+1)%hl.length)*x.clientWidth,behavior:"smooth"})},4200)}
+
+function detail(a){cur=a;document.title=a.name+" – Download";const o=apps.filter(x=>x.id!=a.id).sort(()=>.5-Math.random()).slice(0,8),sh=a.screenshots||[];
+const lk=(i,t,h)=>h?`<a class="ct" href="${esc(h)}" target="_blank" rel="noopener"><i class="fa-solid ${i}"></i><span>${t}</span><i class="fa-solid fa-chevron-right"></i></a>`:"";
+$("#app").innerHTML=`<div class="pg w"><div class="nb"><button class="rb" onclick="history.length>1?history.back():S.go('/')"><i class="fa-solid fa-arrow-left"></i></button><button class="rb" onclick="S.sh()"><i class="fa-solid fa-share-nodes"></i></button></div>
+<div class="rw" style="gap:16px;align-items:flex-start">${ic(a,98)}<div class="fx"><h1>${esc(a.name)}</h1><div class="dev">${DEV}</div><span class="m">${esc(a.category||"")}</span><div class="vp"><i class="fa-solid fa-shield-halved"></i> Verified</div></div></div>
+<div class="stats"><div><b>${rt(a)}</b><span>Rating</span></div><div><b>${esc(a.liveSize||"—")}</b><span>Size</span></div><div><b>${fmt(a.downloadShown)}</b><span>Downloads</span></div><div><b>${a.liveVersionName?"v"+esc(a.liveVersionName):"—"}</b><span>Version</span></div></div>
+<div class="acts">${ib(a,"big",1)}${a.playStoreUrl?`<a class="ib alt big" href="${esc(a.playStoreUrl)}" target="_blank" rel="noopener"><i class="fa-brands fa-google-play"></i> Play Store</a>`:""}</div>
+${sh.length?`<h2>Screenshots</h2><div class="ss">${sh.map((s,i)=>`<img src="${img(s)}" onclick="S.lb(${i})" alt="">`).join("")}</div>`:""}
+<h2>About this app</h2><div class="ds" id="ds">${esc(a.description||a.shortDesc||"")}</div><button class="tx" onclick="S.more(this)">Read more</button>
+${a.liveLog?`<h2>What's new${a.liveVersionName?" · v"+esc(a.liveVersionName):""}</h2><div class="ds o">${esc(a.liveLog)}</div>`:""}
+<h2>App support</h2>${lk("fa-envelope","Contact: "+esc(a.contactEmail),a.contactEmail&&"mailto:"+a.contactEmail)}${lk("fa-headset","Support: "+esc(a.supportEmail),a.supportEmail&&"mailto:"+a.supportEmail)}${lk("fa-user-shield","Privacy policy",a.privacyUrl)}
+<h2 id="sim">You might also like</h2>${o.map(row).join("")||'<p class="m">Jaldi aur apps aayenge.</p>'}</div>`}
+
+function route(){clearInterval(tm);const m=location.pathname.match(/^\/app\/([^/]+)/),a=m&&apps.find(x=>x.slug==decodeURIComponent(m[1]));
+m?a?detail(a):$("#app").innerHTML=`<div class="em"><h1>App nahi mila</h1><br><button class="ib" onclick="S.go('/')">Home</button></div>`:home()}
+
+window.S={
+ go(p){history.pushState(0,"",p);route();scrollTo(0,0)},
+ q(v){q=v;if(location.pathname!="/"){history.pushState(0,"","/");home();}$("#hm")?.classList.toggle("s",!!v);$("#lst").innerHTML=vis().map(row).join("")||'<p class="m">Koi app nahi mila.</p>'},
+ cat(c){cat=c;home()},more(b){$("#ds").classList.toggle("o");b.textContent=b.textContent=="Read more"?"Show less":"Read more"},
+ async sh(){const u=location.href;if(navigator.share)navigator.share({title:cur.name,url:u}).catch(()=>{});else{navigator.clipboard.writeText(u);toast("Link copy ho gaya")}},
+ lb(i){const d=$("#lb");d.innerHTML=cur.screenshots.map(s=>`<img src="${img(s)}" alt="">`).join("");d.classList.add("on");d.onclick=()=>d.classList.remove("on");d.scrollTo({left:i*d.clientWidth})},
+ async dl(id,b,sc){const a=apps.find(x=>x.id==id);if(b.dataset.b)return;if(!a.liveUrl)return toast("Download link abhi available nahi hai");b.dataset.b=1;const h=b.innerHTML;b.classList.add("bz");b.innerHTML='<i class="bar"></i><span>Downloading 0%</span>';const bar=b.firstChild,sp=b.lastChild,t0=performance.now();
+  await new Promise(r=>{const f=t=>{const p=Math.min(1,(t-t0)/2600),e=1-Math.pow(1-p,2);bar.style.width=e*100+"%";sp.textContent=p<1?"Downloading "+Math.round(e*100)+"%":"Installing...";p<1?requestAnimationFrame(f):r()};requestAnimationFrame(f)});
+  const l=document.createElement("a");l.href=a.liveUrl;l.rel="noopener";document.body.append(l);l.click();l.remove();
+  if(!localStorage["d_"+id]){try{localStorage["d_"+id]=1}catch{}updateDoc(doc(db,"apps",id),{downloadReal:increment(1)}).catch(()=>{})}
+  b.classList.remove("bz");b.classList.add("ok");b.innerHTML='<i class="fa-solid fa-circle-check"></i> Downloaded';toast("Download shuru ho gaya");if(sc)setTimeout(()=>$("#sim")?.scrollIntoView({behavior:"smooth"}),500);
+  setTimeout(()=>{b.className=b.className.replace(" ok","");b.innerHTML=h;delete b.dataset.b},5000)}};
+(async()=>{try{const s=await getDocs(query(collection(db,"apps"),where("status","==","published")));apps=s.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.sortOrder||0)-(b.sortOrder||0))}catch(e){$("#app").innerHTML=`<div class="em"><h1>Load nahi hua</h1><p class="m">Thodi der baad dobara try karo.</p></div>`;return}route();addEventListener("popstate",route)})();
+</script></body></html>
